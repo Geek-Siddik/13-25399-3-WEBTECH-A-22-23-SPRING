@@ -1,0 +1,195 @@
+<!-- ABU BAKAR SIDDIK || WEB TECH [A] || 13-25399-3 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <style>
+        table, th, td
+        {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        tr:nth-child(even)
+        {
+            background-color: #D6EEEE;
+        }
+        body
+        {
+            background-color:rgb(201, 233, 246);
+        }
+        a:link
+        {
+            color: green;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        a:visited
+        {
+            color: darkgray;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover
+        {
+            color: red;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:active 
+        {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        h1
+        {
+            text-align: center;
+            background-color:powderblue;
+            font-family: verdana;
+        }
+        h2
+        {
+            color:blue;
+            font-family: verdana;
+            padding-left: 20px;
+        }
+        h3
+        {
+            color: tomato;
+            font-family: verdana;
+            background-color:powderblue;
+        }
+        p
+        {
+            font-family: verdana;
+            font-size: 120%;
+            padding-left: 20px;
+        }
+        div
+        {
+            padding: 10px;
+        }
+        
+    </style>
+
+    <title>13-25399-3 RESUME</title>
+
+</head>
+
+<body>
+
+<div style="text-align: center;">
+    <img src="logo.png" alt="govLogo.png" class="center" width="150" height="150">
+    <h1>Machine Readable Passport Application Form</h1>
+</div>
+
+<div>
+    <h3>Passport Details</h3>
+    <form>
+        <label for="nameOfRPO" style="font-size: 130%;">Name of RPO / Bangladesh Mission:</label>
+        <input type="text" id="nameOfRPO" name="nameOfRPO" value="Agargaon RPO"><br>
+    </form>
+    
+    <p>Application type:</p>
+    <form action="action_page.php">
+        <input type="radio" id="New" name="application_type" value="New">
+        <label for="New">New</label><br>
+        <input type="radio" id="Reissue" name="application_type" value="Reissue">
+        <label for="Reissue">Reissue</label><br>
+    </form>
+
+    <p>Type of passport applied for:</p>
+    <form action="action_page.php">
+        <input type="radio" id="Ordinary" name="application_type" value="Ordinary">
+        <label for="Ordinary">Ordinary</label><br>
+        <input type="radio" id="Official" name="application_type" value="Official">
+        <label for="Official">Official</label><br>
+        <input type="radio" id="Diplomatic" name="application_type" value="Diplomatic">
+        <label for="Diplomatic">Diplomatic</label><br>
+    </form>
+
+    <p>Type of delivery:</p>
+    <form action="action_page.php">
+        <input type="radio" id="Regular" name="application_type" value="Regular">
+        <label for="Regular">Regular</label><br>
+        <input type="radio" id="Express" name="application_type" value="Express">
+        <label for="Express">Express</label><br>
+    </form>
+
+</div>
+
+<div>
+    <h3>Personal & Citizenship Details</h3>
+
+    <p>Name of Applicant:</p>
+    <form>
+        <label for="nameOfApplicant">1. Full Name of Applicant:</label>
+        <input type="text" id="nameOfApplicant" name="nameOfApplicant" value=""><br>
+        <label for="fnameOfApplicant">2. First Name of Applicant:</label>
+        <input type="text" id="fnameOfApplicant" name="fnameOfApplicant" value="">
+        <label for="lnameOfApplicant">Last Name of Applicant:</label>
+        <input type="text" id="lnameOfApplicant" name="lnameOfApplicant" value=""><br>
+    </form>
+
+    <p>Father's name:</p>
+    <form>
+        <label for="nameOfApplicantsFather">3. Full Name of Applicants Father:</label>
+        <input type="text" id="nameOfApplicantsFather" name="nameOfApplicantsFather" value="">
+        <label for="applicantFathersOccupation">Occupation:</label>
+        <input type="text" id="applicantFathersOccupation" name="applicantFathersOccupation" value="">
+        <label for="applicantFathersNationality">Nationality:</label>
+        <input type="text" id="applicantFathersNationality" name="applicantFathersNationality" value="">
+    </form>
+
+    <p>Mother's name:</p>
+    <form>
+        <label for="nameOfApplicantsMother">4. Full Name of Applicants Mother:</label>
+        <input type="text" id="nameOfApplicantsMother" name="nameOfApplicantsMother" value="">
+        <label for="applicantMothersOccupation">Occupation:</label>
+        <input type="text" id="applicantMothersOccupation" name="applicantMothersOccupation" value="">
+        <label for="applicantFathersNationality">Nationality:</label>
+        <input type="text" id="applicantMothersNationality" name="applicantMothersNationality" value="">
+    </form>
+
+    <p>Husband's name or Wife's name:</p>
+    <form>
+        <label for="nameOfApplicantsSpouse">5. Full Name of Applicants Spouse:</label>
+        <input type="text" id="nameOfApplicantsSpouse" name="nameOfApplicantsSpouse" value="">
+        <label for="applicantSpouseOccupation">Occupation:</label>
+        <input type="text" id="applicantSpouseOccupation" name="applicantSpouseOccupation" value="">
+        <label for="applicantSpouseNationality">Nationality:</label>
+        <input type="text" id="applicantSpouseNationality" name="applicantSpouseNationality" value="">
+    </form>
+
+    <p>Gurdian's name:</p>
+    <form>
+        <label for="nameOfApplicantsGurdian">6. Full Name of Applicants Gurdian:</label>
+        <input type="text" id="nameOfApplicantsGurdian" name="nameOfApplicantsGurdian" value="">
+        <label for="applicantGurdiansOccupation">Occupation:</label>
+        <input type="text" id="applicantGurdiansOccupation" name="applicantGurdiansOccupation" value="">
+        <label for="applicantGurdiansNationality">Nationality:</label>
+        <input type="text" id="applicantGurdiansNationality" name="applicantGurdiansNationality" value="">
+    </form>
+
+    <p>Marital Status:</p>
+    <form action="/action_page.php">
+        <label for="maritalStatus">Choose your marital Status from the drop down list:</label>
+        <select id="maritalStatus" name="maritalStatus">
+            <option value="Unmarried">Unmarried</option>
+            <option value="Married">Married</option>
+            <option value="Widower/Widow">Widower/Widow</option>
+            <option value="Divorced">Divorced</option>
+        </select>
+    </form>
+    
+</div>
+
+<div>
+    
+</div>
+
+</body>
+
+</html>
